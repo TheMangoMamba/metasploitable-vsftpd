@@ -156,6 +156,10 @@ cat /etc/passwd
 
 ## 🧠 Lessons Learned
 
+### 🛡️ Impact and Remediation
+
+This vulnerability allows for full system compromise, leading to unauthorized access to sensitive data and the ability to pivot to other systems within a network. To mitigate this, it is crucial to upgrade vsftpd to a patched version, implement proper network segmentation, and regularly patch systems.
+
 - Manual exploitation teaches protocol-level logic and networking fundamentals
 - Metasploit drastically simplifies the process but understanding the logic behind it is crucial
 - Proper network configuration (e.g., NAT vs Host-Only) is critical
@@ -192,4 +196,4 @@ cat /etc/passwd
 
 ## 🔚 Final Thoughts
 
-Both approaches led to full system compromise. The manual method built foundational skills while Metasploit demonstrated how automation accelerates real-world penetration testing. This was a successful offensive security lab that will be used as a portfolio project.
+Both approaches led to full system compromise. The manual method built foundational skills while Metasploit demonstrated how automation accelerates real-world penetration testing. This lab reinforced my understanding of network reconnaissance, vulnerability exploitation, and post-exploitation techniques, proving valuable for my offensive security skill set. This was a successful offensive security lab that will be used as a portfolio project.
