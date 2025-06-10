@@ -138,7 +138,7 @@ Found shell.
 Command shell session 1 opened...
 ```
 
-![Ping success](root-access-change.png)
+![Ping success](msf-root-access.png)
 
 ---
 
@@ -150,7 +150,7 @@ uname -a
 cat /etc/passwd
 ```
 
-![Ping success](root-access-change.png)
+![Ping success](msf-root-access.png)
 
 ---
 
