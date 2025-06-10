@@ -196,4 +196,3 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 ## Final Thoughts
 
 Both approaches led to full system compromise. The manual method built foundational skills while Metasploit demonstrated how automation accelerates real-world penetration testing. This lab reinforced my understanding of network reconnaissance, vulnerability exploitation, and post-exploitation techniques, proving valuable for my offensive security skill set. This was a successful offensive security lab that will be used as a portfolio project.
-
