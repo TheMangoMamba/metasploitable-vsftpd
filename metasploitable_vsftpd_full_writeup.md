@@ -31,7 +31,7 @@ The goal was to gain a deeper understanding of the vulnerability by exploring bo
 ifconfig
 ```
 
-📸 ![Ping success](manual-root-access.png)
+![Ping success](meta-ip.png)
 
 ---
 
@@ -41,7 +41,7 @@ ifconfig
 ping [target IP]
 ```
 
-📸 *Screenshot: Successful ping*
+![Ping success](ping-kali.png)
 
 ---
 
@@ -53,7 +53,7 @@ nmap -sS -sV [target IP]
 
 Result: Port **21/tcp** running `vsftpd 2.3.4`
 
-📸 *Screenshot: Nmap result*
+📸 ![Ping success](nmap-scan.png)
 
 ---
 
