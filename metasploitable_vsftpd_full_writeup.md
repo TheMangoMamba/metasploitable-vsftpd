@@ -3,7 +3,7 @@
 
 ## 📌 Overview
 
-This project covers two methods of exploiting the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523) on Metasploitable 2:
+This project covers two methods of exploiting the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523) on Metasploitable 2. This specific vulnerability is due to a backdoor introduced by a malicious actor in this particular version of vsftpd.
 
 - **Manual exploitation** using basic tools like `telnet` and `netcat`
 - **Automated exploitation** using `msfconsole` (Metasploit Framework)
@@ -69,7 +69,7 @@ USER test:)
 PASS test
 ```
 
-📸 *Screenshot: Connection closed by foreign host*
+📸 ![Ping success](closed-by-foreign-host.png)
 
 ---
 
