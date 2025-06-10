@@ -86,7 +86,7 @@ uname -a
 cat /etc/passwd
 ```
 
-📸 *Screenshot: Root shell access*
+📸 ![Ping success](root-access-change.png)
 
 ---
 
