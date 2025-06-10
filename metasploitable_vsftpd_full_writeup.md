@@ -52,7 +52,7 @@ nmap -sS -sV [target IP]
 
 Result: Port **21/tcp** running `vsftpd 2.3.4`
 
-📸 ![Ping success](nmap-scan.png)
+![Ping success](nmap-scan.png)
 
 ---
 
@@ -68,7 +68,7 @@ USER test:)
 PASS test
 ```
 
-📸 ![Ping success](closed-by-foreign-host.png)
+![Ping success](closed-by-foreign-host.png)
 
 ---
 
@@ -85,7 +85,7 @@ uname -a
 cat /etc/passwd
 ```
 
-📸 ![Ping success](root-access-change.png)
+![Ping success](root-access-change.png)
 
 ---
 
@@ -166,7 +166,7 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 
 ---
 
-## 📸 Screenshot Suggestions
+## Screenshot Suggestions
 
 - Metasploitable IP shown via ifconfig
 - Successful ping from Kali
@@ -178,7 +178,7 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 
 ---
 
-## ✅ Completion Checklist
+## Completion Checklist
 
 | Task                          | Status |
 |-------------------------------|--------|
@@ -193,6 +193,6 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 
 ---
 
-## 🔚 Final Thoughts
+## Final Thoughts
 
 Both approaches led to full system compromise. The manual method built foundational skills while Metasploit demonstrated how automation accelerates real-world penetration testing. This lab reinforced my understanding of network reconnaissance, vulnerability exploitation, and post-exploitation techniques, proving valuable for my offensive security skill set. This was a successful offensive security lab that will be used as a portfolio project.
