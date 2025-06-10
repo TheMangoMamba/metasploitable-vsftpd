@@ -31,7 +31,7 @@ The goal was to gain a deeper understanding of the vulnerability by exploring bo
 ifconfig
 ```
 
-📸 *Screenshot: Metasploitable showing IP*
+📸 ![Ping success](manual root access)
 
 ---
 
