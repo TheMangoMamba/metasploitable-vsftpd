@@ -1,4 +1,3 @@
-
 # Manual and Metasploit Exploitation of vsftpd 2.3.4 on Metasploitable 2
 
 ## 📌 Overview
