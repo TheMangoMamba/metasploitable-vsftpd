@@ -1,6 +1,6 @@
 # Manual and Metasploit Exploitation of vsftpd 2.3.4 on Metasploitable 2
 
-## 📌 Overview
+## Overview
 
 This project covers two methods of exploiting the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523) on Metasploitable 2. This specific vulnerability is due to a backdoor introduced by a malicious actor in this particular version of vsftpd.
 
@@ -11,7 +11,7 @@ The goal was to gain a deeper understanding of the vulnerability by exploring bo
 
 ---
 
-## 🛠 Lab Setup
+## Lab Setup
 
 | Component      | Details                                  |
 |----------------|-------------------------------------------|
@@ -22,7 +22,7 @@ The goal was to gain a deeper understanding of the vulnerability by exploring bo
 
 ---
 
-## 🔍 Exploitation Method 1: Manual (Telnet + Netcat)
+## Exploitation Method 1: Manual (Telnet + Netcat)
 
 ### 1. Identify Metasploitable IP Address
 
@@ -89,7 +89,7 @@ cat /etc/passwd
 
 ---
 
-## ⚡ Exploitation Method 2: Using Metasploit
+## Exploitation Method 2: Using Metasploit
 
 ### 1. Start Metasploit Console
 
