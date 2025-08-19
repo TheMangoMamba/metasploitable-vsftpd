@@ -164,8 +164,7 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 - Proper network configuration (e.g., NAT vs Host-Only) is critical
 - Some backdoors only work **once per boot**, which requires timing or resets
 
----
-## Remediation Document
+### Remediation Document
 
 A detailed remediation document has been created to address the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523). It includes a summary of the vulnerability, affected systems, step-by-step mitigation instructions, verification procedures, and recommended ongoing security measures.
 
