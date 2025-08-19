@@ -165,13 +165,13 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 - Some backdoors only work **once per boot**, which requires timing or resets
 
 ---
-# Remediation Document
+## Remediation Document
 
 A detailed remediation document has been created to address the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523). It includes a summary of the vulnerability, affected systems, step-by-step mitigation instructions, verification procedures, and recommended ongoing security measures.
 
 The document provides evidence of exploitation and remediation, suitable for audit purposes or knowledge sharing. It can be downloaded and reviewed here: [Full Remediation Report (DOCX)](vsftpd_Remediation_Document.docx)
 
-
+---
 ## Final Thoughts
 
 Both approaches led to full system compromise. The manual method built foundational skills while Metasploit demonstrated how automation accelerates real-world penetration testing. This lab reinforced my understanding of network reconnaissance, vulnerability exploitation, and post-exploitation techniques, proving valuable for my offensive security skill set. This was a successful offensive security lab that will be used as a portfolio project.
