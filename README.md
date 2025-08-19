@@ -30,7 +30,7 @@ The goal was to gain a deeper understanding of the vulnerability by exploring bo
 ifconfig
 ```
 
-![Ping success](meta-ip.png)
+![Ping success](screenshots/meta-ip.png)
 
 ---
 
