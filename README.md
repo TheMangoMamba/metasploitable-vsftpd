@@ -165,33 +165,12 @@ This vulnerability allows for full system compromise, leading to unauthorized ac
 - Some backdoors only work **once per boot**, which requires timing or resets
 
 ---
+# Remediation Document
 
-## Screenshot Suggestions
+A detailed remediation document has been created to address the vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523). It includes a summary of the vulnerability, affected systems, step-by-step mitigation instructions, verification procedures, and recommended ongoing security measures.
 
-- Metasploitable IP shown via ifconfig
-- Successful ping from Kali
-- Nmap scan showing port 21
-- Telnet trigger session
-- Netcat shell session
-- Metasploit shell session
-- Commands run post-exploit (whoami, etc.)
+The document provides evidence of exploitation and remediation, suitable for audit purposes or knowledge sharing. It can be downloaded and reviewed here: [Full Remediation Report (DOCX)](vsftpd_Remediation_Document.docx)
 
----
-
-## Completion Checklist
-
-| Task                          | Status |
-|-------------------------------|--------|
-| VM Setup                      | ✅     |
-| Nmap Scanning                 | ✅     |
-| Manual Exploit Triggered      | ✅     |
-| Remote Root Shell (manual)    | ✅     |
-| Metasploit Exploit Used       | ✅     |
-| Root Access Verified          | ✅     |
-| Screenshots Captured          | ✅     |
-| Writeup Created               | ✅     |
-
----
 
 ## Final Thoughts
 
